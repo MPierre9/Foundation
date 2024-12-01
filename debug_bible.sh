@@ -96,6 +96,9 @@ echo '{"user": {"name": "John", "details": {"city": "Boston"}}}' | jq '.user.det
 
 ##### VIM BIBLE
 
+# Source another vimrc
+:source ./my_other_vimrc
+
 # Search
 /hello     # Search forward for "hello"
 ?hello     # Search backward for "hello"
