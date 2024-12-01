@@ -51,6 +51,22 @@
         "key": "ctrl+3",
         "command": "workbench.action.focusThirdEditorGroup"
     },
-    { "key": "cmd+n", "command": "explorer.newFile" },
-    { "key": "alt+cmd+n", "command": "explorer.newFolder" }
-  ]
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+cmd+n",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "cmd+shift+up",
+        "command": "workbench.action.terminal.scrollUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+shift+down",
+        "command": "workbench.action.terminal.scrollDown",
+        "when": "terminalFocus"
+    }
+]

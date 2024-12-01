@@ -1,6 +1,5 @@
 # ALIASES #
 
-
 ## General Aliases #
 
 export CLICOLOR=1
@@ -71,6 +70,7 @@ alias gco='git checkout'
 alias gcob='git checkout -b'
 alias gc='git commit -m'
 alias ga='git add'
+alias gp='git push'
 # git reset --hard origin/main (just good to know)
 
 
@@ -155,3 +155,22 @@ alias eks-list='aws eks list-clusters | jq -r ".clusters[]"'
 alias eks-update='function _eks_update() { aws eks update-kubeconfig --name "$1"; }; _eks_update'
 
 
+### Extras
+# Install Oh MY ZSH:
+## sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Then edit .zshrc and change theme, e.g.:
+## ZSH_THEME="agnoster"
+
+# ZSH_THEME="agnoster"
+
+# Install COLOR LS 
+# https://github.com/athityakumar/colorls?tab=readme-ov-file#installation
+##
+## brew install ruby
+## brew install font-hack-nerd-font
+## gem install colorls
+
+# alias ll='colorls -Glatrh'
+# export PATH="/opt/homebrew/opt/ruby/bin:$PATH" # for colorls
+# gem environment to see where this path is
+# export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"

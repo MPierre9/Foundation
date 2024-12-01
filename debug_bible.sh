@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# NOTE: should put this file in a central spot and make an alias to reference it.
 set -euo pipefail
 
 ##### TAIL #######################################################
@@ -150,3 +150,8 @@ e          # Jump to end of word
 printenv (cenv) 
 
 unset $NAME # to unset a env variable
+
+
+#### EXTRA 
+
+https://gist.github.com/kevin-smets/8568070 (extra iterm setup)
