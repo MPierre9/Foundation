@@ -13,6 +13,8 @@ alias ..='cd ..'
 alias ....='cd ../../'
 alias ......='cd ../../../'
 
+alias a="alias"
+
 alias h='history'  # Shows command history
 
 alias path='echo -e ${PATH//:/\\n}' # see what in your PATH
